@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.time-container {
+  color: red;
+  display: flex;
+  font-size: 4rem;
+}
+
+.time-container span {
+  position: relative;
+}
+.timer-text {
+  margin: 0;
+  font-size: 5rem;
+}
